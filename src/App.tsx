@@ -1,7 +1,10 @@
 import * as React from 'react'
+import Header from './components/Header'
+import Layout from './components/Layout'
+import './utils/style.css'
 
 export const App = () => (
-  <div>
-    <h2>App</h2>
-  </div>
+  <Layout>
+    <Header />
+  </Layout>
 )
